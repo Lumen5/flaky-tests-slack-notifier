@@ -4,11 +4,11 @@ description: >
 usage:
   version: 2.1
   orbs:
-    flaky-tests-notify-slack: lumen5/flaky-tests-notify-slack@1.0.2
+    flaky-tests-slack-notifier: lumen5/flaky-tests-slack-notifier@1.0.2
   workflows:
     use-my-orb:
       jobs:
-        - flaky-tests-notify-slack/notify:
+        - flaky-tests-slack-notifier/notify:
             channel: C02ELGNBH
             circle_token: CIRCLE_TOKEN_FOR_FLAKY_NOTIFY
             notify_threshold: 3
