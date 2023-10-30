@@ -1,7 +1,7 @@
 # Orb Template
 
 
-[![CircleCI Build Status](https://circleci.com/gh/Lumen5/flaky-test-notify-slack-orb.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/Lumen5/flaky-test-notify-slack-orb) [![CircleCI Orb Version](https://badges.circleci.com/orbs/lumen5/flaky-tests-slack-notifier.svg)](https://circleci.com/developer/orbs/orb/lumen5/flaky-tests-slack-notifier) [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/Lumen5/flaky-test-notify-slack-orb/master/LICENSE) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
+[![CircleCI Build Status](https://circleci.com/gh/Lumen5/flaky-test-slack-notifier-orb.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/Lumen5/flaky-test-slack-notifier-orb) [![CircleCI Orb Version](https://badges.circleci.com/orbs/lumen5/flaky-tests-slack-notifier.svg)](https://circleci.com/developer/orbs/orb/lumen5/flaky-tests-slack-notifier) [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/Lumen5/flaky-test-slack-notifier-orb/master/LICENSE) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
 
 
 
@@ -21,14 +21,14 @@ _**Edit this area to include a custom title and description.**_
 
 ### How to Contribute
 
-We welcome [issues](https://github.com/Lumen5/flaky-test-notify-slack-orb/issues) to and [pull requests](https://github.com/Lumen5/flaky-test-notify-slack-orb/pulls) against this repository!
+We welcome [issues](https://github.com/Lumen5/flaky-test-slack-notifier-orb/issues) to and [pull requests](https://github.com/Lumen5/flaky-test-slack-notifier-orb/pulls) against this repository!
 
 ### How to Publish An Update
 1. Merge pull requests with desired changes to the main branch.
     - For the best experience, squash-and-merge and use [Conventional Commit Messages](https://conventionalcommits.org/).
 2. Find the current version of the orb.
     - You can run `circleci orb info lumen5/flaky-tests-slack-notifier | grep "Latest"` to see the current version.
-3. Create a [new Release](https://github.com/Lumen5/flaky-test-notify-slack-orb/releases/new) on GitHub.
+3. Create a [new Release](https://github.com/Lumen5/flaky-test-slack-notifier-orb/releases/new) on GitHub.
     - Click "Choose a tag" and _create_ a new [semantically versioned](http://semver.org/) tag. (ex: v1.0.0)
       - We will have an opportunity to change this before we publish if needed after the next step.
 4.  Click _"+ Auto-generate release notes"_.
